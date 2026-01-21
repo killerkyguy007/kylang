@@ -1,0 +1,25 @@
+input n
+let a := 0
+let b := 1
+display a
+for i in 1..n:
+    let c := a + b
+    display c
+    let a := b
+    let b := c
+
+input type1ToGoAgain0ToEnd
+
+if type1ToGoAgain0ToEnd = 1:
+    input n
+elif type1ToGoAgain0ToEnd = 0:
+    let n := 0
+
+let a := 0
+let b := 1
+display a
+for i in 1..n:
+    let c := a + b
+    display c
+    let a := b
+    let b := c

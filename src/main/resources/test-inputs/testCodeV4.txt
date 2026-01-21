@@ -1,0 +1,6 @@
+let myVar := ((5*3) / (7-2))
+display myVar
+input yourVar
+display yourVar
+let negSum := (myVar + yourVar) * -1
+display negSum 

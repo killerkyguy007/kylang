@@ -1,0 +1,20 @@
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+
+# ===== Maven =====
+target/
+
+# ===== Java =====
+*.class
+
+# ===== OS generated files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Temporary files =====
+*.tmp
+*.swp

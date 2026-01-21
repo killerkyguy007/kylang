@@ -1,0 +1,17 @@
+let x := 5
+display x
+let y := 1
+display y
+for i in 1 .. 5:
+    display i
+    let y := y + i
+    display y
+if y > 20:
+    display y
+else:
+    display y
+let z := 3
+display z
+while z < 10:
+    display z
+    let z := z + 2
